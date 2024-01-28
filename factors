@@ -11,6 +11,6 @@ def do_it(n):
 
 file = open(sys.argv[1])
 L = file.readlines()
-for x in L[:-1]:
+for x in L:
   s = do_it(int(x))
   print(s)
